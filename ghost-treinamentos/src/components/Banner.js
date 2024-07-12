@@ -1,5 +1,3 @@
-// Banner.js
-
 import React from 'react';
 import './Banner.css';
 import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa'; 
