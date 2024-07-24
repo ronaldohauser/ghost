@@ -1,0 +1,106 @@
+.banner {
+  background-image: url('../assets/banner-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); 
+  backdrop-filter: blur(6px); 
+}
+
+.banner-content {
+  max-width: 800px;
+  z-index: 1;
+  position: relative;
+}
+
+.banner-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.banner-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.banner-content h1:hover,
+.banner-content p:hover {
+  transform: scale(1.05);
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-buttons .button {
+  margin: 0 10px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
+
+.social-icons-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+  color: #dc3545;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .banner-content p {
+    font-size: 1.2rem;
+  }
+
+  .cta-buttons .button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
