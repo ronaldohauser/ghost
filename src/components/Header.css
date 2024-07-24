@@ -34,7 +34,9 @@
   color: white;
   text-decoration: none;
   padding: 10px 15px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .nav-link:hover {

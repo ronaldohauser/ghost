@@ -22,27 +22,39 @@ const Header = () => {
       <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}>
         <ul className="nav-list">
           <li className="nav-item">
-            <Link to="/" className="nav-link" onClick={toggleMenu}>Home</Link>
+            <Link to="/" className="nav-link" onClick={toggleMenu}>
+              Home
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link" onClick={toggleMenu}>Sobre</Link>
+            <Link to="/about" className="nav-link" onClick={toggleMenu}>
+              Sobre
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/services" className="nav-link" onClick={toggleMenu}>Serviços</Link>
+            <Link to="/services" className="nav-link" onClick={toggleMenu}>
+              Serviços
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/gallery" className="nav-link" onClick={toggleMenu}>Galeria</Link>
+            <Link to="/gallery" className="nav-link" onClick={toggleMenu}>
+              Galeria
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/blog" className="nav-link" onClick={toggleMenu}>Blog</Link>
+            <Link to="/blog" className="nav-link" onClick={toggleMenu}>
+              Blog
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-link" onClick={toggleMenu}>Contato</Link>
+            <Link to="/contact" className="nav-link" onClick={toggleMenu}>
+              Contato
+            </Link>
           </li>
         </ul>
       </nav>
     </header>
   );
-}
+};
 
 export default Header;

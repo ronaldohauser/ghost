@@ -9,7 +9,9 @@ body {
 }
 
 /* Estilos para cabeçalhos */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #fff; /* Texto em branco */
 }
 

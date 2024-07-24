@@ -22,9 +22,26 @@ import galeria19 from '../assets/galeria19.jpg';
 import galeria20 from '../assets/galeria20.jpg';
 
 const images = [
-  galeria1, galeria2, galeria3, galeria4, galeria5, galeria6, galeria7, galeria8,
-  galeria9, galeria10, galeria11, galeria12, galeria13, galeria14, galeria15, galeria16,
-  galeria17, galeria18, galeria19, galeria20,
+  galeria1,
+  galeria2,
+  galeria3,
+  galeria4,
+  galeria5,
+  galeria6,
+  galeria7,
+  galeria8,
+  galeria9,
+  galeria10,
+  galeria11,
+  galeria12,
+  galeria13,
+  galeria14,
+  galeria15,
+  galeria16,
+  galeria17,
+  galeria18,
+  galeria19,
+  galeria20,
 ];
 
 const Gallery = () => {
@@ -48,6 +65,6 @@ const Gallery = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Gallery;

@@ -30,7 +30,9 @@
   object-fit: cover;
   border-radius: 5px;
   cursor: pointer;
-  transition: transform 0.3s, border 0.3s;
+  transition:
+    transform 0.3s,
+    border 0.3s;
 }
 
 .thumbnail:hover {

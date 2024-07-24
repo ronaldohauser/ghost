@@ -8,6 +8,6 @@ const Home = () => {
       {/* Conteúdo adicional da página inicial */}
     </div>
   );
-}
+};
 
 export default Home;

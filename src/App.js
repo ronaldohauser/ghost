@@ -14,7 +14,9 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="content"> {/* Adicionando a div para espaçamento */}
+        <div className="content">
+          {' '}
+          {/* Adicionando a div para espaçamento */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
