@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
@@ -15,8 +16,6 @@ function App() {
       <div className="App">
         <Header />
         <div className="content">
-          {' '}
-          {/* Adicionando a div para espaçamento */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
